@@ -18,6 +18,8 @@ function Form() {
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
 
+  console.log(country, setCountry)
+
   return (
     <form className={styles.form}>
       <div className={styles.row}>
